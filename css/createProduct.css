@@ -1,0 +1,43 @@
+.create-product-page {
+}
+
+.create-product-page form {
+}
+
+.create-product-page input,
+.create-product-page select {
+  width: 100%;
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid #999;
+  margin: 10px 0;
+  display: block;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+.create-product-page input[type="submit"] {
+  background: #333;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+}
+/* image input */
+.imge{
+  position: relative;
+  width: 100%;
+  height: 180px;
+  background-color: #2222;
+  margin: 10px 0;
+
+}
+.imge i{
+  font-size: 21px !important;
+  position: absolute;
+  top:10px;
+  left:10px;
+}
+.imge label{
+  /* position: relative; */
+}
+

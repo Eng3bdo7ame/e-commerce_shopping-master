@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Shopping Cart | Register Page</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/register.css" />
+      <link rel="stylesheet" href="css/bootstrap.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-content">
+          
+          <a href="index.html" class="brand"> Shopping Cart </a>
+          <nav>
+           
+            <ul >
+                <li id="en_lang">En</li>
+                <li  id="ar_lang">Ar</li>
+                <li c><a href="login.html" id="in"> Sign In </a></li>
+                <li ><a  href="register.html" id="out"> Sign Up </a></li>
+              
+              </ul>
+            </div>
+          </nav>
+        
+        </div>
+      </div>
+    </header>
+
+    <section class="section-form col-xls-4 col-ls-5 col-md-7 col-lg-7" >
+      <h2>Register User</h2>
+      <form novalidate>
+        <input type="text" placeholder="Enter Username.." id="username" />
+        <input type="email" placeholder="Enter Email.." id="email" />
+        <input type="password" placeholder="Enter Password.." id="password" />
+
+        <input type="submit" value="Sign Up" id="sign_up" />
+
+        Have Account <a href="login.html"> Login </a>
+      </form>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
+    <script src="js/register.js"></script>
+    <script src="js/langDir.js"></script>
+  </body>
+</html>
